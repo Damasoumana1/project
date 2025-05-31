@@ -7,7 +7,7 @@ import { exportReport } from '../utils/export';
 function EpidemicForecasts() {
   const { t } = useTranslation();
   const [selectedDisease, setSelectedDisease] = useState('covid19');
-  const [selecedRegion, setSelectedRegion] = useState('global');
+  const [selectedRegion, setSelectedRegion] = useState('global'); // Correction ici
   const [timeframe, setTimeframe] = useState('6months');
 
   const diseases = [

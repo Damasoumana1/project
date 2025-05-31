@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-50">
         <Header />
-        <div className="flex pt-12"> {/* Reduced top padding */}
+        <div className="flex pt-16"> {/* Reduced top padding */}
           <Sidebar />
           <main className="flex-1 overflow-x-hidden overflow-y-auto">
             <Routes>
